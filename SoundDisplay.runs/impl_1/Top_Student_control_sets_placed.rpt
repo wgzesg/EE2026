@@ -1,0 +1,88 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Mar 27 20:42:33 2020
+| Host         : DESKTOP-A4FN99I running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_Student_control_sets_placed.rpt
+| Design       : Top_Student
+| Device       : xc7a35t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    20 |
+| Unused register locations in slices containing registers |    50 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            1 |
+|      4 |            3 |
+|      8 |            1 |
+|     10 |            1 |
+|    16+ |           14 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             194 |           35 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             196 |           33 |
+| Yes          | No                    | No                     |              22 |            3 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             178 |           29 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------+-----------------------------------+-----------------------------------+------------------+----------------+
+|       Clock Signal      |           Enable Signal           |          Set/Reset Signal         | Slice Load Count | Bel Load Count |
++-------------------------+-----------------------------------+-----------------------------------+------------------+----------------+
+| ~clk6p25m_BUFG          |                                   |                                   |                1 |              2 |
+|  CLOCK_IBUF_BUFG        | ledoutput/an[3]_i_2_n_0           | ledoutput/an[3]_i_1_n_0           |                1 |              4 |
+|  CLOCK_IBUF_BUFG        | ledoutput/an[1]_i_2_n_0           | ledoutput/an[1]_i_1_n_0           |                1 |              4 |
+|  CLOCK_IBUF_BUFG        | ledoutput/an[3]_i_1_n_0           | ledoutput/seg[4]_i_1_n_0          |                2 |              4 |
+|  timerUnit/out[1]       |                                   |                                   |                1 |              8 |
+|  CLOCK_IBUF_BUFG        | ledoutput/an[3]_i_1_n_0           | ledoutput/seg[6]_i_1_n_0          |                2 |             10 |
+|  clk6p25m_BUFG          |                                   |                                   |                2 |             16 |
+|  CLOCK_IBUF_BUFG        |                                   | nolabel_line47/clk_out0           |                3 |             22 |
+|  CLOCK_IBUF_BUFG        | ledoutput/current_max[11]_i_1_n_0 |                                   |                3 |             22 |
+| ~audio/J_MIC3_Pin4_OBUF |                                   |                                   |                5 |             24 |
+|  nolabel_line47/CLK     |                                   |                                   |                2 |             24 |
+|  CLOCK_IBUF_BUFG        |                                   | nolabel_line47/CLK                |                3 |             24 |
+|  CLOCK_IBUF_BUFG        | ledoutput/max[11]_i_2_n_0         | ledoutput/max[11]_i_1_n_0         |                2 |             24 |
+|  CLOCK_IBUF_BUFG        |                                   | ledoutput/count1[12]_i_1_n_0      |                4 |             26 |
+|  CLOCK_IBUF_BUFG        | ledoutput/num                     | ledoutput/num[13]_i_1_n_0         |                5 |             28 |
+| ~clk6p25m_BUFG          |                                   | nolabel_line45/reset              |                4 |             34 |
+| ~clk6p25m_BUFG          | Oled_Display/delay[0]_i_1_n_0     | nolabel_line45/reset              |                5 |             40 |
+| ~clk6p25m_BUFG          | Oled_Display/state                | nolabel_line45/reset              |               11 |             64 |
+| ~clk6p25m_BUFG          |                                   | Oled_Display/spi_word[39]_i_1_n_0 |               19 |             90 |
+|  CLOCK_IBUF_BUFG        |                                   |                                   |               25 |            128 |
++-------------------------+-----------------------------------+-----------------------------------+------------------+----------------+
+
+
