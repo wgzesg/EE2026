@@ -1,8 +1,8 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-| Date         : Fri Mar 27 20:43:51 2020
-| Host         : DESKTOP-A4FN99I running 64-bit major release  (build 9200)
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Fri Mar 27 21:42:22 2020
+| Host         : wgzesg-MacBookPro running 64-bit Ubuntu 18.04.4 LTS
 | Command      : report_methodology -file Top_Student_methodology_drc_routed.rpt -pb Top_Student_methodology_drc_routed.pb -rpx Top_Student_methodology_drc_routed.rpx
 | Design       : Top_Student
 | Device       : xc7a35tcpg236-1
@@ -23,11 +23,11 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 204
+             Violations found: 194
 +-----------+----------+-------------------------------+------------+
 | Rule      | Severity | Description                   | Violations |
 +-----------+----------+-------------------------------+------------+
-| TIMING-17 | Warning  | Non-clocked sequential cell   | 151        |
+| TIMING-17 | Warning  | Non-clocked sequential cell   | 141        |
 | TIMING-18 | Warning  | Missing input or output delay | 53         |
 +-----------+----------+-------------------------------+------------+
 
@@ -736,56 +736,6 @@ Related violations: <none>
 TIMING-17#141 Warning
 Non-clocked sequential cell  
 The clock pin nolabel_line45/mediate_reg/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#142 Warning
-Non-clocked sequential cell  
-The clock pin theme/bgColor_reg[13]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#143 Warning
-Non-clocked sequential cell  
-The clock pin theme/bgColor_reg[7]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#144 Warning
-Non-clocked sequential cell  
-The clock pin theme/borderColor_reg[13]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#145 Warning
-Non-clocked sequential cell  
-The clock pin theme/borderColor_reg[15]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#146 Warning
-Non-clocked sequential cell  
-The clock pin theme/highColor_reg[15]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#147 Warning
-Non-clocked sequential cell  
-The clock pin theme/lowrColor_reg[14]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#148 Warning
-Non-clocked sequential cell  
-The clock pin trial/historyVolume_reg[9][0]_srl10/CLK is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#149 Warning
-Non-clocked sequential cell  
-The clock pin trial/historyVolume_reg[9][1]_srl10/CLK is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#150 Warning
-Non-clocked sequential cell  
-The clock pin trial/historyVolume_reg[9][2]_srl10/CLK is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#151 Warning
-Non-clocked sequential cell  
-The clock pin trial/historyVolume_reg[9][3]_srl10/CLK is not reached by a timing clock
 Related violations: <none>
 
 TIMING-18#1 Warning

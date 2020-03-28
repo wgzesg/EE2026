@@ -1,13 +1,13 @@
 #-----------------------------------------------------------
 # Vivado v2018.2 (64-bit)
-# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Fri Mar 27 20:39:46 2020
-# Process ID: 23848
-# Current directory: C:/Users/26012/Desktop/EE2026-master/SoundDisplay.runs/synth_1
-# Command line: vivado.exe -log Top_Student.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top_Student.tcl
-# Log file: C:/Users/26012/Desktop/EE2026-master/SoundDisplay.runs/synth_1/Top_Student.vds
-# Journal file: C:/Users/26012/Desktop/EE2026-master/SoundDisplay.runs/synth_1\vivado.jou
+# Start of session at: Fri Mar 27 21:40:14 2020
+# Process ID: 23595
+# Current directory: /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.runs/synth_1
+# Command line: vivado -log Top_Student.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top_Student.tcl
+# Log file: /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.runs/synth_1/Top_Student.vds
+# Journal file: /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.runs/synth_1/vivado.jou
 #-----------------------------------------------------------
 source Top_Student.tcl -notrace
 Command: synth_design -top Top_Student -part xc7a35tcpg236-1
@@ -15,24 +15,24 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 8708 
+INFO: Helper process launched with PID 23598 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 375.379 ; gain = 99.094
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1284.734 ; gain = 84.746 ; free physical = 1305 ; free virtual = 8409
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'Top_Student' [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/Top_Student.v:18]
-INFO: [Synth 8-6157] synthesizing module 'multiclock' [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/multiclock.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'multiclock' (1#1) [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/multiclock.v:23]
-INFO: [Synth 8-6157] synthesizing module 'singlePulse' [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/singlePulse.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'singlePulse' (2#1) [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/singlePulse.v:23]
-INFO: [Synth 8-6157] synthesizing module 'clock_divider' [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/clock_divider.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'clock_divider' (3#1) [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/clock_divider.v:23]
-INFO: [Synth 8-6157] synthesizing module 'Audio_Capture' [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/Audio_Capture.v:26]
-INFO: [Synth 8-6155] done synthesizing module 'Audio_Capture' (4#1) [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/Audio_Capture.v:26]
-INFO: [Synth 8-6157] synthesizing module 'mic_basic' [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/mic_basic.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Top_Student' [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/Top_Student.v:18]
+INFO: [Synth 8-6157] synthesizing module 'multiclock' [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/multiclock.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'multiclock' (1#1) [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/multiclock.v:23]
+INFO: [Synth 8-6157] synthesizing module 'singlePulse' [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/singlePulse.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'singlePulse' (2#1) [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/singlePulse.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clock_divider' [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/clock_divider.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clock_divider' (3#1) [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/clock_divider.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Audio_Capture' [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/Audio_Capture.v:26]
+INFO: [Synth 8-6155] done synthesizing module 'Audio_Capture' (4#1) [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/Audio_Capture.v:26]
+INFO: [Synth 8-6157] synthesizing module 'mic_basic' [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/mic_basic.v:23]
 	Parameter lower_bound bound to: 2048 - type: integer 
 	Parameter difference_seg bound to: 146 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mic_basic' (5#1) [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/mic_basic.v:23]
-INFO: [Synth 8-6157] synthesizing module 'themeManager' [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/stateManager.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'mic_basic' (5#1) [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/mic_basic.v:23]
+INFO: [Synth 8-6157] synthesizing module 'themeManager' [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/stateManager.v:3]
 	Parameter Black bound to: 16'b0000000000000000 
 	Parameter White bound to: 16'b1111111111111111 
 	Parameter Green bound to: 16'b0000011111100000 
@@ -48,39 +48,8 @@ INFO: [Synth 8-6157] synthesizing module 'themeManager' [C:/Users/26012/Desktop/
 	Parameter t2low bound to: 16'b0110011000011101 
 	Parameter t2mid bound to: 16'b0110010000011001 
 	Parameter t2high bound to: 16'b0010101010001110 
-INFO: [Synth 8-6155] done synthesizing module 'themeManager' (6#1) [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/stateManager.v:3]
-INFO: [Synth 8-6157] synthesizing module 'flowMode' [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/flowMode.v:3]
-	Parameter Width bound to: 96 - type: integer 
-	Parameter Height bound to: 64 - type: integer 
-	Parameter PixelCount bound to: 6144 - type: integer 
-	Parameter PixelCountWidth bound to: 13 - type: integer 
-WARNING: [Synth 8-324] index -1 out of range [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/flowMode.v:35]
-WARNING: [Synth 8-567] referenced signal 'historyVolume' should be on the sensitivity list [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/flowMode.v:40]
-WARNING: [Synth 8-567] referenced signal 'isBar' should be on the sensitivity list [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/flowMode.v:40]
-WARNING: [Synth 8-567] referenced signal 'volumeBarHighColor' should be on the sensitivity list [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/flowMode.v:40]
-WARNING: [Synth 8-567] referenced signal 'volumeBarMidColor' should be on the sensitivity list [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/flowMode.v:40]
-WARNING: [Synth 8-567] referenced signal 'volumeBarLowColor' should be on the sensitivity list [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/flowMode.v:40]
-WARNING: [Synth 8-567] referenced signal 'isBorder' should be on the sensitivity list [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/flowMode.v:40]
-WARNING: [Synth 8-567] referenced signal 'borderWidth' should be on the sensitivity list [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/flowMode.v:40]
-WARNING: [Synth 8-567] referenced signal 'borderColor' should be on the sensitivity list [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/flowMode.v:40]
-WARNING: [Synth 8-567] referenced signal 'bgColor' should be on the sensitivity list [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/flowMode.v:40]
-INFO: [Synth 8-6155] done synthesizing module 'flowMode' (7#1) [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/flowMode.v:3]
-INFO: [Synth 8-6157] synthesizing module 'pixel_color' [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/pixel_color.v:3]
-	Parameter Width bound to: 96 - type: integer 
-	Parameter Height bound to: 64 - type: integer 
-	Parameter PixelCount bound to: 6144 - type: integer 
-	Parameter PixelCountWidth bound to: 13 - type: integer 
-WARNING: [Synth 8-567] referenced signal 'currentVolume' should be on the sensitivity list [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/pixel_color.v:24]
-WARNING: [Synth 8-567] referenced signal 'isBar' should be on the sensitivity list [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/pixel_color.v:24]
-WARNING: [Synth 8-567] referenced signal 'volumeBarHighColor' should be on the sensitivity list [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/pixel_color.v:24]
-WARNING: [Synth 8-567] referenced signal 'volumeBarMidColor' should be on the sensitivity list [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/pixel_color.v:24]
-WARNING: [Synth 8-567] referenced signal 'volumeBarLowColor' should be on the sensitivity list [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/pixel_color.v:24]
-WARNING: [Synth 8-567] referenced signal 'isBorder' should be on the sensitivity list [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/pixel_color.v:24]
-WARNING: [Synth 8-567] referenced signal 'borderWidth' should be on the sensitivity list [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/pixel_color.v:24]
-WARNING: [Synth 8-567] referenced signal 'borderColor' should be on the sensitivity list [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/pixel_color.v:24]
-WARNING: [Synth 8-567] referenced signal 'bgColor' should be on the sensitivity list [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/pixel_color.v:24]
-INFO: [Synth 8-6155] done synthesizing module 'pixel_color' (8#1) [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/pixel_color.v:3]
-INFO: [Synth 8-6157] synthesizing module 'Oled_Display' [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/Oled_Display.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'themeManager' (6#1) [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/stateManager.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Oled_Display' [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/Oled_Display.v:36]
 	Parameter Width bound to: 96 - type: integer 
 	Parameter Height bound to: 64 - type: integer 
 	Parameter PixelCount bound to: 6144 - type: integer 
@@ -131,15 +100,36 @@ INFO: [Synth 8-6157] synthesizing module 'Oled_Display' [C:/Users/26012/Desktop/
 	Parameter SendPixel bound to: 5'b10000 
 	Parameter SpiCommandMaxWidth bound to: 40 - type: integer 
 	Parameter SpiCommandBitCountWidth bound to: 6 - type: integer 
-INFO: [Synth 8-226] default block is never used [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/Oled_Display.v:125]
-INFO: [Synth 8-226] default block is never used [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/Oled_Display.v:203]
-WARNING: [Synth 8-693] zero replication count - replication ignored [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/Oled_Display.v:351]
-INFO: [Synth 8-6155] done synthesizing module 'Oled_Display' (9#1) [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/Oled_Display.v:36]
-WARNING: [Synth 8-689] width (13) of port connection 'frame_begin' does not match port width (1) of module 'Oled_Display' [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/Top_Student.v:59]
-WARNING: [Synth 8-689] width (13) of port connection 'sending_pixels' does not match port width (1) of module 'Oled_Display' [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/Top_Student.v:59]
-WARNING: [Synth 8-689] width (13) of port connection 'sample_pixel' does not match port width (1) of module 'Oled_Display' [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/Top_Student.v:60]
-INFO: [Synth 8-6155] done synthesizing module 'Top_Student' (10#1) [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/sources_1/new/Top_Student.v:18]
+INFO: [Synth 8-226] default block is never used [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/Oled_Display.v:125]
+INFO: [Synth 8-226] default block is never used [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/Oled_Display.v:203]
+WARNING: [Synth 8-693] zero replication count - replication ignored [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/Oled_Display.v:351]
+INFO: [Synth 8-6155] done synthesizing module 'Oled_Display' (7#1) [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/Oled_Display.v:36]
+WARNING: [Synth 8-689] width (13) of port connection 'frame_begin' does not match port width (1) of module 'Oled_Display' [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/Top_Student.v:59]
+WARNING: [Synth 8-689] width (13) of port connection 'sending_pixels' does not match port width (1) of module 'Oled_Display' [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/Top_Student.v:59]
+WARNING: [Synth 8-689] width (13) of port connection 'sample_pixel' does not match port width (1) of module 'Oled_Display' [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/Top_Student.v:60]
+INFO: [Synth 8-6157] synthesizing module 'bitMap' [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/bitMap.v:23]
+INFO: [Synth 8-5534] Detected attribute (* ram_style = "block" *) [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/bitMap.v:28]
+INFO: [Synth 8-3876] $readmem data file 'bitmap.mem' is read successfully [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/bitMap.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'bitMap' (8#1) [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/bitMap.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Top_Student' (9#1) [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/Top_Student.v:18]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[12]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[11]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[10]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[9]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[8]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[7]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[6]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[5]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[4]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[3]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[2]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[1]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[0]
 WARNING: [Synth 8-3331] design Top_Student has unconnected port JB[2]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[13]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[12]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[11]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[10]
 WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[9]
 WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[8]
 WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[7]
@@ -150,7 +140,7 @@ WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[3]
 WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[2]
 WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[1]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 430.352 ; gain = 154.066
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1329.359 ; gain = 129.371 ; free physical = 1311 ; free virtual = 8417
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -163,41 +153,41 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 430.352 ; gain = 154.066
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1329.359 ; gain = 129.371 ; free physical = 1312 ; free virtual = 8418
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 430.352 ; gain = 154.066
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1329.359 ; gain = 129.371 ; free physical = 1312 ; free virtual = 8418
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc]
-Finished Parsing XDC File [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_Student_propImpl.xdc].
+Parsing XDC File [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc]
+Finished Parsing XDC File [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_Student_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/Top_Student_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 769.391 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1643.680 ; gain = 0.000 ; free physical = 1069 ; free virtual = 8144
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:00:33 . Memory (MB): peak = 769.391 ; gain = 493.105
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:23 . Memory (MB): peak = 1643.680 ; gain = 443.691 ; free physical = 1158 ; free virtual = 8232
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:00:33 . Memory (MB): peak = 769.391 ; gain = 493.105
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:23 . Memory (MB): peak = 1643.680 ; gain = 443.691 ; free physical = 1158 ; free virtual = 8232
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:33 . Memory (MB): peak = 769.391 ; gain = 493.105
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:23 . Memory (MB): peak = 1643.680 ; gain = 443.691 ; free physical = 1158 ; free virtual = 8232
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "clk_out0" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "max" won't be mapped to RAM because it is too sparse
@@ -213,12 +203,11 @@ INFO: [Synth 8-5544] ROM "seg" won't be mapped to Block RAM because address size
 INFO: [Synth 8-5544] ROM "seg" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "seg" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "borderWidth" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "borderWidth" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Oled_Display'
 INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5544] ROM "fsm_next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5547] Trying to map ROM "bitmap" into Block RAM due to explicit "ram_style" or "rom_style" specification
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
 ---------------------------------------------------------------------------------------------------
@@ -257,7 +246,7 @@ INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is 
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'Oled_Display'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 769.391 ; gain = 493.105
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 1643.680 ; gain = 443.691 ; free physical = 1146 ; free virtual = 8221
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -270,7 +259,6 @@ Start RTL Component Statistics
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input     32 Bit       Adders := 3     
 	   2 Input     17 Bit       Adders := 1     
 	   2 Input     14 Bit       Adders := 1     
 	   2 Input     13 Bit       Adders := 1     
@@ -294,7 +282,7 @@ Detailed RTL Component Info :
 	   2 Input     32 Bit        Muxes := 2     
 	  32 Input     20 Bit        Muxes := 1     
 	   2 Input     17 Bit        Muxes := 1     
-	   2 Input     16 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 1     
 	   3 Input     16 Bit        Muxes := 3     
 	   2 Input     15 Bit        Muxes := 1     
 	   3 Input     15 Bit        Muxes := 1     
@@ -326,10 +314,6 @@ Finished RTL Component Statistics
 Start RTL Hierarchical Component Statistics 
 ---------------------------------------------------------------------------------
 Hierarchical RTL Component report 
-Module Top_Student 
-Detailed RTL Component Info : 
-+---Muxes : 
-	   2 Input     16 Bit        Muxes := 1     
 Module singlePulse 
 Detailed RTL Component Info : 
 +---Registers : 
@@ -393,14 +377,6 @@ Detailed RTL Component Info :
 	   3 Input     16 Bit        Muxes := 3     
 	   3 Input     15 Bit        Muxes := 1     
 	   3 Input     14 Bit        Muxes := 1     
-Module flowMode 
-Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input     32 Bit       Adders := 2     
-Module pixel_color 
-Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input     32 Bit       Adders := 1     
 Module Oled_Display 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -442,7 +418,24 @@ INFO: [Synth 8-5546] ROM "max" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "nolabel_line47/clk_out0" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[12]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[11]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[10]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[9]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[8]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[7]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[6]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[5]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[4]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[3]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[2]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[1]
+WARNING: [Synth 8-3331] design bitMap has unconnected port framebegin[0]
 WARNING: [Synth 8-3331] design Top_Student has unconnected port JB[2]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[13]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[12]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[11]
+WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[10]
 WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[9]
 WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[8]
 WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[7]
@@ -452,85 +445,107 @@ WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[4]
 WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[3]
 WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[2]
 WARNING: [Synth 8-3331] design Top_Student has unconnected port sw[1]
-INFO: [Synth 8-3886] merging instance 'theme/bgColor_reg[0]' (FD) to 'theme/midColor_reg[2]'
-INFO: [Synth 8-3886] merging instance 'theme/borderColor_reg[0]' (FD) to 'theme/borderColor_reg[4]'
-INFO: [Synth 8-3886] merging instance 'theme/lowrColor_reg[0]' (FD) to 'theme/lowrColor_reg[3]'
-INFO: [Synth 8-3886] merging instance 'theme/midColor_reg[0]' (FD) to 'theme/midColor_reg[3]'
-INFO: [Synth 8-3886] merging instance 'theme/highColor_reg[0]' (FD) to 'theme/midColor_reg[2]'
-INFO: [Synth 8-3886] merging instance 'theme/bgColor_reg[1]' (FD) to 'theme/bgColor_reg[2]'
-INFO: [Synth 8-3886] merging instance 'theme/borderColor_reg[1]' (FD) to 'theme/borderColor_reg[2]'
-INFO: [Synth 8-3886] merging instance 'theme/lowrColor_reg[1]' (FD) to 'theme/midColor_reg[2]'
-INFO: [Synth 8-3886] merging instance 'theme/midColor_reg[1]' (FD) to 'theme/midColor_reg[2]'
-INFO: [Synth 8-3886] merging instance 'theme/highColor_reg[1]' (FD) to 'theme/highColor_reg[2]'
-INFO: [Synth 8-3886] merging instance 'theme/bgColor_reg[2]' (FD) to 'theme/bgColor_reg[5]'
-INFO: [Synth 8-3886] merging instance 'theme/borderColor_reg[2]' (FD) to 'theme/borderColor_reg[3]'
-INFO: [Synth 8-3886] merging instance 'theme/midColor_reg[2]' (FD) to 'theme/bgColor_reg[10]'
-INFO: [Synth 8-3886] merging instance 'theme/bgColor_reg[3]' (FD) to 'theme/bgColor_reg[6]'
-INFO: [Synth 8-3886] merging instance 'theme/borderColor_reg[3]' (FD) to 'theme/borderColor_reg[5]'
-INFO: [Synth 8-3886] merging instance 'theme/lowrColor_reg[3]' (FD) to 'theme/lowrColor_reg[4]'
-INFO: [Synth 8-3886] merging instance 'theme/highColor_reg[3]' (FD) to 'theme/highColor_reg[7]'
-INFO: [Synth 8-3886] merging instance 'theme/bgColor_reg[4]' (FD) to 'theme/bgColor_reg[10]'
-INFO: [Synth 8-3886] merging instance 'theme/borderColor_reg[4]' (FD) to 'theme/borderColor_reg[6]'
-INFO: [Synth 8-3886] merging instance 'theme/lowrColor_reg[4]' (FD) to 'theme/lowrColor_reg[13]'
-INFO: [Synth 8-3886] merging instance 'theme/highColor_reg[4]' (FD) to 'theme/bgColor_reg[10]'
-INFO: [Synth 8-3886] merging instance 'theme/bgColor_reg[5]' (FD) to 'theme/bgColor_reg[8]'
-INFO: [Synth 8-3886] merging instance 'theme/borderColor_reg[5]' (FD) to 'theme/borderColor_reg[9]'
-INFO: [Synth 8-3886] merging instance 'theme/lowrColor_reg[5]' (FD) to 'theme/lowrColor_reg[7]'
-INFO: [Synth 8-3886] merging instance 'theme/midColor_reg[5]' (FD) to 'theme/midColor_reg[6]'
-INFO: [Synth 8-3886] merging instance 'theme/highColor_reg[5]' (FD) to 'theme/bgColor_reg[10]'
-INFO: [Synth 8-3886] merging instance 'theme/bgColor_reg[6]' (FD) to 'theme/bgColor_reg[9]'
-INFO: [Synth 8-3886] merging instance 'theme/borderColor_reg[6]' (FD) to 'theme/borderColor_reg[7]'
-INFO: [Synth 8-3886] merging instance 'theme/midColor_reg[6]' (FD) to 'theme/midColor_reg[9]'
-INFO: [Synth 8-3886] merging instance 'theme/borderColor_reg[7]' (FD) to 'theme/borderColor_reg[8]'
-INFO: [Synth 8-3886] merging instance 'theme/lowrColor_reg[7]' (FD) to 'theme/lowrColor_reg[8]'
-INFO: [Synth 8-3886] merging instance 'theme/midColor_reg[7]' (FD) to 'theme/midColor_reg[8]'
-INFO: [Synth 8-3886] merging instance 'theme/highColor_reg[7]' (FD) to 'theme/highColor_reg[9]'
-INFO: [Synth 8-3886] merging instance 'theme/bgColor_reg[8]' (FD) to 'theme/bgColor_reg[11]'
-INFO: [Synth 8-3886] merging instance 'theme/borderColor_reg[8]' (FD) to 'theme/borderColor_reg[12]'
-INFO: [Synth 8-3886] merging instance 'theme/midColor_reg[8]' (FD) to 'theme/midColor_reg[11]'
-INFO: [Synth 8-3886] merging instance 'theme/highColor_reg[8]' (FD) to 'theme/bgColor_reg[10]'
-INFO: [Synth 8-3886] merging instance 'theme/bgColor_reg[9]' (FD) to 'theme/bgColor_reg[13]'
-INFO: [Synth 8-3886] merging instance 'theme/borderColor_reg[9]' (FD) to 'theme/borderColor_reg[10]'
-INFO: [Synth 8-3886] merging instance 'theme/midColor_reg[9]' (FD) to 'theme/midColor_reg[12]'
-INFO: [Synth 8-3886] merging instance 'theme/bgColor_reg[10]' (FD) to 'theme/lowrColor_reg[12]'
-INFO: [Synth 8-3886] merging instance 'theme/borderColor_reg[10]' (FD) to 'theme/borderColor_reg[11]'
-INFO: [Synth 8-3886] merging instance 'theme/lowrColor_reg[10]' (FD) to 'theme/midColor_reg[14]'
-INFO: [Synth 8-3886] merging instance 'theme/midColor_reg[10]' (FD) to 'theme/midColor_reg[14]'
-INFO: [Synth 8-3886] merging instance 'theme/highColor_reg[10]' (FD) to 'theme/lowrColor_reg[12]'
-INFO: [Synth 8-3886] merging instance 'theme/bgColor_reg[11]' (FD) to 'theme/bgColor_reg[12]'
-INFO: [Synth 8-3886] merging instance 'theme/borderColor_reg[11]' (FD) to 'theme/borderColor_reg[14]'
-INFO: [Synth 8-3886] merging instance 'theme/highColor_reg[11]' (FD) to 'theme/highColor_reg[13]'
-INFO: [Synth 8-3886] merging instance 'theme/borderColor_reg[12]' (FD) to 'theme/borderColor_reg[13]'
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (theme/\lowrColor_reg[12] )
-INFO: [Synth 8-3886] merging instance 'theme/midColor_reg[12]' (FD) to 'theme/midColor_reg[15]'
-INFO: [Synth 8-3886] merging instance 'theme/lowrColor_reg[13]' (FD) to 'theme/lowrColor_reg[14]'
-INFO: [Synth 8-3886] merging instance 'theme/midColor_reg[13]' (FD) to 'theme/midColor_reg[14]'
-INFO: [Synth 8-3886] merging instance 'theme/borderColor_reg[14]' (FD) to 'theme/borderColor_reg[15]'
-INFO: [Synth 8-3333] propagating constant 1 across sequential element (theme/\midColor_reg[14] )
-INFO: [Synth 8-3886] merging instance 'theme/highColor_reg[14]' (FD) to 'theme/highColor_reg[15]'
 INFO: [Synth 8-3886] merging instance 'ledoutput/an_reg[2]' (FDSE) to 'ledoutput/an_reg[3]'
-INFO: [Synth 8-3333] propagating constant 1 across sequential element (ledoutput/\led_reg[0] )
-WARNING: [Synth 8-3332] Sequential element (current_max_reg[0]) is unused and will be removed from module mic_basic.
-WARNING: [Synth 8-3332] Sequential element (led_reg[0]) is unused and will be removed from module mic_basic.
-WARNING: [Synth 8-3332] Sequential element (lowrColor_reg[12]) is unused and will be removed from module themeManager.
-WARNING: [Synth 8-3332] Sequential element (midColor_reg[14]) is unused and will be removed from module themeManager.
-INFO: [Synth 8-3886] merging instance 'theme/lowrColor_reg[2]' (FD) to 'theme/highColor_reg[2]'
-INFO: [Synth 8-3886] merging instance 'theme/highColor_reg[2]' (FD) to 'theme/midColor_reg[4]'
-INFO: [Synth 8-3886] merging instance 'theme/midColor_reg[3]' (FD) to 'theme/highColor_reg[9]'
-INFO: [Synth 8-3886] merging instance 'theme/midColor_reg[4]' (FD) to 'theme/bgColor_reg[7]'
-INFO: [Synth 8-3886] merging instance 'theme/lowrColor_reg[6]' (FD) to 'theme/midColor_reg[11]'
-INFO: [Synth 8-3886] merging instance 'theme/highColor_reg[6]' (FD) to 'theme/lowrColor_reg[11]'
-INFO: [Synth 8-3886] merging instance 'theme/lowrColor_reg[8]' (FD) to 'theme/midColor_reg[15]'
-INFO: [Synth 8-3886] merging instance 'theme/lowrColor_reg[9]' (FD) to 'theme/highColor_reg[13]'
-INFO: [Synth 8-3886] merging instance 'theme/highColor_reg[9]' (FD) to 'theme/bgColor_reg[12]'
-INFO: [Synth 8-3886] merging instance 'theme/lowrColor_reg[11]' (FD) to 'theme/bgColor_reg[13]'
-INFO: [Synth 8-3886] merging instance 'theme/midColor_reg[11]' (FD) to 'theme/highColor_reg[12]'
-INFO: [Synth 8-3886] merging instance 'theme/bgColor_reg[12]' (FD) to 'theme/lowrColor_reg[14]'
-INFO: [Synth 8-3886] merging instance 'theme/highColor_reg[12]' (FD) to 'theme/borderColor_reg[13]'
-INFO: [Synth 8-3886] merging instance 'theme/highColor_reg[13]' (FD) to 'theme/borderColor_reg[15]'
-INFO: [Synth 8-3886] merging instance 'theme/midColor_reg[15]' (FD) to 'theme/highColor_reg[15]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\ledoutput/led_reg[0] )
+WARNING: [Synth 8-3332] Sequential element (ledoutput/current_max_reg[0]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (ledoutput/led_reg[0]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (ledoutput/volume_reg[3]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (ledoutput/volume_reg[2]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (ledoutput/volume_reg[1]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (ledoutput/volume_reg[0]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/borderColor_reg[15]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/borderColor_reg[14]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/borderColor_reg[13]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/borderColor_reg[12]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/borderColor_reg[11]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/borderColor_reg[10]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/borderColor_reg[9]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/borderColor_reg[8]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/borderColor_reg[7]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/borderColor_reg[6]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/borderColor_reg[5]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/borderColor_reg[4]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/borderColor_reg[3]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/borderColor_reg[2]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/borderColor_reg[1]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/borderColor_reg[0]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/bgColor_reg[13]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/bgColor_reg[12]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/bgColor_reg[11]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/bgColor_reg[10]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/bgColor_reg[9]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/bgColor_reg[8]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/bgColor_reg[7]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/bgColor_reg[6]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/bgColor_reg[5]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/bgColor_reg[4]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/bgColor_reg[3]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/bgColor_reg[2]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/bgColor_reg[1]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/bgColor_reg[0]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/lowrColor_reg[14]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/lowrColor_reg[13]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/lowrColor_reg[12]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/lowrColor_reg[11]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/lowrColor_reg[10]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/lowrColor_reg[9]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/lowrColor_reg[8]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/lowrColor_reg[7]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/lowrColor_reg[6]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/lowrColor_reg[5]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/lowrColor_reg[4]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/lowrColor_reg[3]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/lowrColor_reg[2]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/lowrColor_reg[1]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/lowrColor_reg[0]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/midColor_reg[15]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/midColor_reg[14]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/midColor_reg[13]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/midColor_reg[12]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/midColor_reg[11]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/midColor_reg[10]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/midColor_reg[9]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/midColor_reg[8]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/midColor_reg[7]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/midColor_reg[6]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/midColor_reg[5]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/midColor_reg[4]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/midColor_reg[3]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/midColor_reg[2]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/midColor_reg[1]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/midColor_reg[0]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/highColor_reg[15]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/highColor_reg[14]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/highColor_reg[13]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/highColor_reg[12]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/highColor_reg[11]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/highColor_reg[10]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/highColor_reg[9]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/highColor_reg[8]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/highColor_reg[7]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/highColor_reg[6]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/highColor_reg[5]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/highColor_reg[4]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/highColor_reg[3]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/highColor_reg[2]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/highColor_reg[1]) is unused and will be removed from module Top_Student.
+WARNING: [Synth 8-3332] Sequential element (theme/highColor_reg[0]) is unused and will be removed from module Top_Student.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:49 . Memory (MB): peak = 769.391 ; gain = 493.105
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 1643.680 ; gain = 443.691 ; free physical = 1194 ; free virtual = 8273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|bitMap      | p_0_out    | 8192x16       | LUT            | 
++------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -542,13 +557,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:00 ; elapsed = 00:01:07 . Memory (MB): peak = 769.391 ; gain = 493.105
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 1643.680 ; gain = 443.691 ; free physical = 1112 ; free virtual = 8190
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:01 ; elapsed = 00:01:09 . Memory (MB): peak = 792.805 ; gain = 516.520
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:43 . Memory (MB): peak = 1676.703 ; gain = 476.715 ; free physical = 1085 ; free virtual = 8163
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -560,7 +575,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:03 ; elapsed = 00:01:10 . Memory (MB): peak = 825.094 ; gain = 548.809
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:43 . Memory (MB): peak = 1692.719 ; gain = 492.730 ; free physical = 1085 ; free virtual = 8163
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -584,7 +599,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:05 ; elapsed = 00:01:13 . Memory (MB): peak = 825.094 ; gain = 548.809
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:44 . Memory (MB): peak = 1692.719 ; gain = 492.730 ; free physical = 1085 ; free virtual = 8163
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -597,7 +612,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:05 ; elapsed = 00:01:13 . Memory (MB): peak = 825.094 ; gain = 548.809
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:44 . Memory (MB): peak = 1692.719 ; gain = 492.730 ; free physical = 1085 ; free virtual = 8163
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -609,39 +624,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:05 ; elapsed = 00:01:13 . Memory (MB): peak = 825.094 ; gain = 548.809
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:44 . Memory (MB): peak = 1692.719 ; gain = 492.730 ; free physical = 1085 ; free virtual = 8163
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:05 ; elapsed = 00:01:13 . Memory (MB): peak = 825.094 ; gain = 548.809
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:44 . Memory (MB): peak = 1692.719 ; gain = 492.730 ; free physical = 1085 ; free virtual = 8163
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:05 ; elapsed = 00:01:13 . Memory (MB): peak = 825.094 ; gain = 548.809
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:44 . Memory (MB): peak = 1692.719 ; gain = 492.730 ; free physical = 1085 ; free virtual = 8163
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:05 ; elapsed = 00:01:13 . Memory (MB): peak = 825.094 ; gain = 548.809
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start ROM, RAM, DSP and Shift Register Reporting
----------------------------------------------------------------------------------
-
-Dynamic Shift Register Report:
-+------------+----------------------+--------+------------+--------+---------+--------+--------+--------+
-|Module Name | RTL Name             | Length | Data Width | SRL16E | SRLC32E | Mux F7 | Mux F8 | Mux F9 | 
-+------------+----------------------+--------+------------+--------+---------+--------+--------+--------+
-|dsrl        | historyVolume_reg[9] | 4      | 4          | 4      | 0       | 0      | 0      | 0      | 
-+------------+----------------------+--------+------------+--------+---------+--------+--------+--------+
-
----------------------------------------------------------------------------------
-Finished ROM, RAM, DSP and Shift Register Reporting
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:44 . Memory (MB): peak = 1692.719 ; gain = 492.730 ; free physical = 1085 ; free virtual = 8163
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -658,45 +659,45 @@ Report Cell Usage:
 |      |Cell   |Count |
 +------+-------+------+
 |1     |BUFG   |     2|
-|2     |CARRY4 |   223|
-|3     |LUT1   |    79|
-|4     |LUT2   |   335|
-|5     |LUT3   |   233|
-|6     |LUT4   |   321|
-|7     |LUT5   |   157|
-|8     |LUT6   |   356|
-|9     |SRL16E |     4|
-|10    |FDRE   |   255|
-|11    |FDRE_1 |    31|
-|12    |FDSE   |     7|
-|13    |FDSE_1 |     1|
-|14    |IBUF   |    10|
-|15    |OBUF   |    36|
-|16    |OBUFT  |     1|
+|2     |CARRY4 |    31|
+|3     |LUT1   |     9|
+|4     |LUT2   |    86|
+|5     |LUT3   |    77|
+|6     |LUT4   |    63|
+|7     |LUT5   |   130|
+|8     |LUT6   |   500|
+|9     |MUXF7  |    44|
+|10    |MUXF8  |    15|
+|11    |FDRE   |   227|
+|12    |FDRE_1 |    31|
+|13    |FDSE   |     7|
+|14    |FDSE_1 |     1|
+|15    |IBUF   |     4|
+|16    |OBUF   |    36|
+|17    |OBUFT  |     1|
 +------+-------+------+
 
 Report Instance Areas: 
 +------+-----------------+--------------+------+
 |      |Instance         |Module        |Cells |
 +------+-----------------+--------------+------+
-|1     |top              |              |  2051|
-|2     |  Oled_Display   |Oled_Display  |  1166|
-|3     |  audio          |Audio_Capture |    73|
-|4     |  ledoutput      |mic_basic     |   207|
-|5     |  nolabel_line45 |singlePulse   |     5|
-|6     |  nolabel_line47 |clock_divider |    22|
-|7     |  theme          |themeManager  |    40|
-|8     |  timerUnit      |multiclock    |    31|
-|9     |  trial          |flowMode      |    92|
+|1     |top              |              |  1264|
+|2     |  Oled_Display   |Oled_Display  |   360|
+|3     |  audio          |Audio_Capture |    76|
+|4     |  ledoutput      |mic_basic     |   187|
+|5     |  mapping        |bitMap        |   561|
+|6     |  nolabel_line45 |singlePulse   |     5|
+|7     |  nolabel_line47 |clock_divider |    22|
+|8     |  timerUnit      |multiclock    |     9|
 +------+-----------------+--------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:05 ; elapsed = 00:01:13 . Memory (MB): peak = 825.094 ; gain = 548.809
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:44 . Memory (MB): peak = 1692.719 ; gain = 492.730 ; free physical = 1085 ; free virtual = 8163
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 14 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:43 ; elapsed = 00:00:56 . Memory (MB): peak = 825.094 ; gain = 209.770
-Synthesis Optimization Complete : Time (s): cpu = 00:01:05 ; elapsed = 00:01:13 . Memory (MB): peak = 825.094 ; gain = 548.809
+Synthesis finished with 0 errors, 0 critical warnings and 110 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 1692.719 ; gain = 178.410 ; free physical = 1140 ; free virtual = 8219
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:44 . Memory (MB): peak = 1692.727 ; gain = 492.730 ; free physical = 1144 ; free virtual = 8222
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 265 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 126 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
@@ -706,11 +707,11 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   FDSE_1 => FDSE (inverted pins: C): 1 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-133 Infos, 47 Warnings, 0 Critical Warnings and 0 Errors encountered.
+61 Infos, 141 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:10 ; elapsed = 00:01:18 . Memory (MB): peak = 825.094 ; gain = 560.410
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:45 . Memory (MB): peak = 1692.727 ; gain = 504.445 ; free physical = 1156 ; free virtual = 8235
 WARNING: [Constraints 18-5210] No constraint will be written out.
-INFO: [Common 17-1381] The checkpoint 'C:/Users/26012/Desktop/EE2026-master/SoundDisplay.runs/synth_1/Top_Student.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint '/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.runs/synth_1/Top_Student.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Top_Student_utilization_synth.rpt -pb Top_Student_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.148 . Memory (MB): peak = 825.094 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Fri Mar 27 20:41:16 2020...
+report_utilization: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.11 . Memory (MB): peak = 1716.730 ; gain = 0.000 ; free physical = 1157 ; free virtual = 8235
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 27 21:41:07 2020...

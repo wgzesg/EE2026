@@ -30,7 +30,6 @@ module bitMap(
     
     always @(framebegin)begin
         $readmemh("bitmap.mem", bitmap);
-        pointer  = pointer + 6144;
     end
     
     always @(current)begin  

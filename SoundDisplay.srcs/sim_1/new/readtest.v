@@ -23,14 +23,14 @@
 module readtest(
 
     );
-    reg [15:0] bitmap[15:0];
+    reg [15:0] bitmap[0: 6143];
     integer i;
     initial
     begin
         #10
         $readmemh("bitmap.mem", bitmap);
     #10
-        for(i = 0; i < 16; i = i + 1)begin
+        for(i = 0; i < 6143; i = i + 1)begin
             $display("%h", bitmap[i]);
         end
     #10    
