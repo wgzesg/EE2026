@@ -22,12 +22,14 @@
 
 module multiclock(
     input CLOCK,
-    output clk6p25m, clkbtn, clkFlow
+    output clk6p25m, clkbtn, clkFlow, flashing, clk_1s
     );
     reg [25:0]counter;
     always @(posedge CLOCK) begin
         counter = counter + 1;
     end
+    assign clk_1s = counter[23];
+    assign flashing = counter[17];
     assign clk6p25m = counter[4];
     assign clkbtn = counter[20];
     assign clkFlow = counter[22];

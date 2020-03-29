@@ -18,6 +18,8 @@ proc create_report { reportName command } {
   }
 }
 set_param xicom.use_bs_reader 1
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
 create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -29,14 +31,22 @@ set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property ip_output_repo /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_mem /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/bitmap.mem
+read_mem {
+  /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/bitmap.mem
+  /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/startingPage.mem
+  /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/deathPage.mem
+  /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/gamePage.mem
+}
 read_verilog -library xil_defaultlib {
   /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/Audio_Capture.v
   /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/Oled_Display.v
   /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/bitMap.v
   /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/clock_divider.v
+  /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/flowMode.v
   /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/mic_basic.v
   /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/multiclock.v
+  /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/pixel_color.v
+  /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/scoreBoard.v
   /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/singlePulse.v
   /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/stateManager.v
   /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/sources_1/new/Top_Student.v
