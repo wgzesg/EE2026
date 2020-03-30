@@ -60,7 +60,7 @@ module Top_Student (
   flowMode flowwwww(clkFlow, pixel_index, FlowData, vol,
                  bgColor, borderColor, lowColor, midColor, highColor,
                  sw[13], ~sw[11], ~sw[12]);
-  pixel_color static(pixel_index, staticData, vol,
+  pixel_color basicFunction(pixel_index, staticData, vol,
                      bgColor, borderColor, lowColor, midColor, highColor,
                      sw[13], ~sw[11], ~sw[12]);
   Oled_Display Oled_Display(clk6p25m, reset, frame_begin, sending_pixels,

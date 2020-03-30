@@ -31,16 +31,15 @@ module scoreBoard(
     reg [8:0] score = 0;
     reg [3:0] counter1, counter2, counter3, counter4, currentCounter;
     
-    always @( posedge clk_1s)begin
-        if(sw && gameState == 2'b01)begin
+    always @(posedge clk_1s)begin
+        if(sw && gameState == 2'b01)
             score = score + 1;
-            counter1 = score % 10;
-            counter2 = (score / 10) % 10;
-            counter3 = (score / 100) % 10;
-            counter4 = (score / 1000) % 10;
-        end
         else
             score = 0;
+        counter1 = score % 10;
+        counter2 = (score / 10) % 10;
+        counter3 = (score / 100) % 10;
+        counter4 = (score / 1000) % 10;
     end
     
     always @(posedge flashing)begin
