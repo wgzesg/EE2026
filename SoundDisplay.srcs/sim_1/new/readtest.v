@@ -31,6 +31,7 @@ module readtest(
         //$readmemh("bitmap.mem", bitmap);
         $readmemb("lowMap.mem", bitmap);
     #10
+        i = i + 1;
         for(i = 0; i < 6143; i = i + 1)begin
             $display("%h", bitmap[i]);
         end

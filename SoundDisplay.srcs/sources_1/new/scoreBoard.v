@@ -34,7 +34,7 @@ module scoreBoard(
     always @(posedge clk_1s)begin
         if(sw && gameState == 2'b01)
             score = score + 1;
-        else
+        else if(gameState == 2'b00)
             score = 0;
         counter1 = score % 10;
         counter2 = (score / 10) % 10;

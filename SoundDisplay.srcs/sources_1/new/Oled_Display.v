@@ -114,7 +114,7 @@ assign vccen = state == VccEn || state == DisplayOn ||
   state == SetRowAddress || state == WaitNextFrame || state == SendPixel;
 assign pmoden = !reset;
 
-reg [15:0] color;
+//reg [15:0] color;
 
 wire [StateWidth-1:0] next_state = fsm_next_state(state, frame_begin, pixel_index);
 

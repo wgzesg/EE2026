@@ -1,19 +1,5 @@
 `timescale 1ns / 1ps
 
-//////////////////////////////////////////////////////////////////////////////////
-//
-//  FILL IN THE FOLLOWING INFORMATION:
-//
-//  LAB SESSION DAY (Delete where applicable): MONDAY P.M, TUESDAY P.M, WEDNESDAY P.M, THURSDAY A.M., THURSDAY P.M
-//
-//  STUDENT A NAME: 
-//  STUDENT A MATRICULATION NUMBER: 
-//
-//  STUDENT B NAME: 
-//  STUDENT B MATRICULATION NUMBER: 
-//
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module Top_Student (
   input CLOCK,
@@ -69,7 +55,7 @@ module Top_Student (
                             
   // Game mode                          
                           
-  bitMap mapping(reset, gameData, pixel_index, frame_begin, vol, gameState);
+  bitMap mapping(CLOCK, reset, gameData, pixel_index, frame_begin, vol, gameState);
   scoreBoard score(reset, sw[9], scoreAn, scoreSeg, clk_1s, flashing, gameState);
   
   endmodule
