@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 set_property SRC_FILE_INFO {cfile:C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc rfile:../../../SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc id:1} [current_design]
+=======
+set_property SRC_FILE_INFO {cfile:/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc rfile:../../../SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc id:1} [current_design]
+>>>>>>> 2df6aee9930837762d1bca2ec291f2320556f75e
 set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W5 [get_ports CLOCK]
 set_property src_info {type:XDC file:1 line:12 export:INPUT save:INPUT read:READ} [current_design]

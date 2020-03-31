@@ -39,7 +39,11 @@ module Top_Student (
 
   clock_divider (CLOCK, clk20k);
   Audio_Capture audio( CLOCK, clk20k, J_MIC3_Pin3, J_MIC3_Pin1, J_MIC3_Pin4, mic_in); 
+<<<<<<< HEAD
   mic_basic ledoutput( CLOCK, mic_in, sw[2:0], led, soundAn, soundSeg, vol);
+=======
+  mic_basic ledoutput( CLOCK, mic_in, sw[0], led, soundAn, soundSeg, vol);
+>>>>>>> 2df6aee9930837762d1bca2ec291f2320556f75e
 
   themeManager theme(clk6p25m, sw[15:14], borderColor, bgColor, lowColor, midColor, highColor);
 

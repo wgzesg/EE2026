@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Mar 29 16:07:28 2020
+# Process ID: 14842
+# Current directory: /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.runs/impl_1
+# Command line: vivado -log Top_Student.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Top_Student.tcl -notrace
+# Log file: /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.runs/impl_1/Top_Student.vdi
+# Journal file: /home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source Top_Student.tcl -notrace

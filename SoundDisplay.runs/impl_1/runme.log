@@ -4,7 +4,11 @@
 
 
 ****** Vivado v2018.2 (64-bit)
+<<<<<<< HEAD
   **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+=======
+  **** SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+>>>>>>> 2df6aee9930837762d1bca2ec291f2320556f75e
   **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 
@@ -12,26 +16,40 @@ source Top_Student.tcl -notrace
 Command: link_design -top Top_Student -part xc7a35tcpg236-1
 Design is defaulting to srcset: sources_1
 Design is defaulting to constrset: constrs_1
+<<<<<<< HEAD
 INFO: [Netlist 29-17] Analyzing 3654 Unisim elements for replacement
+=======
+INFO: [Netlist 29-17] Analyzing 1474 Unisim elements for replacement
+>>>>>>> 2df6aee9930837762d1bca2ec291f2320556f75e
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2018.2
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
+<<<<<<< HEAD
 Parsing XDC File [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc]
 Finished Parsing XDC File [C:/Users/26012/Desktop/EE2026-master/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc]
+=======
+Parsing XDC File [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc]
+Finished Parsing XDC File [/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc]
+>>>>>>> 2df6aee9930837762d1bca2ec291f2320556f75e
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 7 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 link_design completed successfully
+<<<<<<< HEAD
 link_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 614.973 ; gain = 345.969
+=======
+link_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 1479.090 ; gain = 286.809 ; free physical = 1898 ; free virtual = 8026
+>>>>>>> 2df6aee9930837762d1bca2ec291f2320556f75e
 Command: opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
 Running DRC as a precondition to command opt_design
 
 Starting DRC Task
+<<<<<<< HEAD
 INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
@@ -510,3 +528,19 @@ INFO: [Common 17-83] Releasing license: Implementation
 write_bitstream completed successfully
 write_bitstream: Time (s): cpu = 00:00:33 ; elapsed = 00:00:26 . Memory (MB): peak = 1891.949 ; gain = 443.578
 INFO: [Common 17-206] Exiting Vivado at Tue Mar 31 20:50:04 2020...
+=======
+INFO: [DRC 23-27] Running DRC with 4 threads
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net mapping/Q[0] has multiple drivers: mapping/gameState_reg[0]/Q, and mapping/gameState_reg[0]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net mapping/Q[1] has multiple drivers: mapping/gameState_reg[1]/Q, and mapping/gameState_reg[1]__0/Q.
+INFO: [Project 1-461] DRC finished with 2 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1520.105 ; gain = 41.016 ; free physical = 1893 ; free virtual = 8021
+INFO: [Common 17-83] Releasing license: Implementation
+12 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+opt_design failed
+ERROR: [Common 17-39] 'opt_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 29 21:50:06 2020...
+>>>>>>> 2df6aee9930837762d1bca2ec291f2320556f75e
