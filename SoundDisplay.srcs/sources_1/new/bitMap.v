@@ -56,7 +56,7 @@ module bitMap(
     
     // control the state changes
     always @(posedge clk)begin
-        if(gameState == START && volume > 13)begin
+        if(gameState == START && volume > 8)begin
             gameState = INGAME;
             #10;
         end
@@ -73,7 +73,7 @@ module bitMap(
     
     // control repetitions of each page 
     always @ (posedge framebegin)begin
-        i = (i + 1) % 8;
+        i = (i + 1) % 16;
         if(gameState == INGAME)begin
             walkCounter = (characterState == WALKING) ? walkCounter + 1 : 0;
             jumpCounter = (characterState == JUMP) ? jumpCounter + 1 : 0;
@@ -83,7 +83,7 @@ module bitMap(
                 ob_right = (ob_right + 93) % 96;
             end
         end
-        else if(gameState == DEATH || gameState == START)begin
+        else if(gameState == START)begin
             ob_left = 65;
             ob_right = 77;
             bg_location = 0;
@@ -95,8 +95,9 @@ module bitMap(
         x_loc = current % 96;
         y_loc = current / 96;
         if(gameState == START)begin
-            color = startPage[current + (i >> 2) % 2 * PIXEL_PER_FRAME];
+            color = startPage[current + (i >> 3) % 2 * PIXEL_PER_FRAME];
         end
+        
         else if(gameState == INGAME)begin
             // walking 
             if(characterState == WALKING && x_loc < CH_RIGHT && x_loc > CH_LEFT && y_loc < CH_DOWN && y_loc > CHW_UP)
@@ -113,8 +114,12 @@ module bitMap(
             else
                 color = backgroundMap[y_loc * 96 + (x_loc + bg_location) % 96];
         end
+        
         else if(gameState == DEATH)begin
-            color = deathPage[current + (i >> 2) % 2 * PIXEL_PER_FRAME];
+            if(y_loc > OB_DOWN && y_loc < OB_UP)
+                color = obstacleMap[y_loc * 96 + (x_loc + bg_location) % 96 - 5184];
+            else         
+                color = deathPage[current + (i >> 3) % 2 * PIXEL_PER_FRAME];
         end
     end
 endmodule
