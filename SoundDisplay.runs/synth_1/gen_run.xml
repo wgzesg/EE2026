@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1585658500">
+  <File Type="PA-TCL" Name="Top_Student.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Top_Student_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Top_Student_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Top_Student.vds"/>
+  <File Type="RDS-UTIL" Name="Top_Student_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Top_Student_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Top_Student.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Top_Student_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Top_Student_timing_summary_synth.pb"/>
+=======
 <GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1585493268">
   <File Type="VDS-TIMING-PB" Name="Top_Student_timing_summary_synth.pb"/>
   <File Type="VDS-TIMINGSUMMARY" Name="Top_Student_timing_summary_synth.rpt"/>
@@ -9,6 +21,7 @@
   <File Type="RDS-RDS" Name="Top_Student.vds"/>
   <File Type="REPORTS-TCL" Name="Top_Student_reports.tcl"/>
   <File Type="PA-TCL" Name="Top_Student.tcl"/>
+>>>>>>> 2df6aee9930837762d1bca2ec291f2320556f75e
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/Audio_Capture.v">
@@ -101,12 +114,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/bitmap.mem">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
+<<<<<<< HEAD
     <File Path="$PSRCDIR/sources_1/new/startingPage.mem">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -114,12 +122,45 @@
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/deathPage.mem">
+=======
+    <File Path="$PSRCDIR/sources_1/new/bitmap.mem">
+>>>>>>> 2df6aee9930837762d1bca2ec291f2320556f75e
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+<<<<<<< HEAD
+    <File Path="$PSRCDIR/sources_1/new/character.mem">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/background.mem">
+=======
+    <File Path="$PSRCDIR/sources_1/new/startingPage.mem">
+>>>>>>> 2df6aee9930837762d1bca2ec291f2320556f75e
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+<<<<<<< HEAD
+    <File Path="$PSRCDIR/sources_1/new/jump.mem">
+=======
+    <File Path="$PSRCDIR/sources_1/new/deathPage.mem">
+>>>>>>> 2df6aee9930837762d1bca2ec291f2320556f75e
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+<<<<<<< HEAD
+    <File Path="$PSRCDIR/sources_1/new/obstacle.mem">
+=======
     <File Path="$PSRCDIR/sources_1/new/gamePage.mem">
+>>>>>>> 2df6aee9930837762d1bca2ec291f2320556f75e
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>

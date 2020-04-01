@@ -1,7 +1,12 @@
 <?xml version="1.0"?>
 <Runs Version="1" Minor="0">
+<<<<<<< HEAD
 	<Run Id="synth_1" LaunchDir="/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
 	<Run Id="impl_1" LaunchDir="/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+=======
+	<Run Id="synth_1" LaunchDir="C:/Users/26012/Desktop/EE2026-master/SoundDisplay.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="impl_1" LaunchDir="C:/Users/26012/Desktop/EE2026-master/SoundDisplay.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+>>>>>>> 2b7042019eb1d51fcfd7250bd82c3bb1a356eda1
 		<Parent Id="synth_1"/>
 	</Run>
 </Runs>

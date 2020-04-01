@@ -1,8 +1,14 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------
+<<<<<<< HEAD
 | Tool Version     : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
 | Date             : Tue Mar 31 14:36:50 2020
 | Host             : wgzesg-MacBookPro running 64-bit Ubuntu 18.04.4 LTS
+=======
+| Tool Version     : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date             : Tue Mar 31 20:49:37 2020
+| Host             : DESKTOP-A4FN99I running 64-bit major release  (build 9200)
+>>>>>>> 2b7042019eb1d51fcfd7250bd82c3bb1a356eda1
 | Command          : report_power -file Top_Student_power_routed.rpt -pb Top_Student_power_summary_routed.pb -rpx Top_Student_power_routed.rpx
 | Design           : Top_Student
 | Device           : xc7a35tcpg236-1
@@ -30,10 +36,17 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
+<<<<<<< HEAD
 | Total On-Chip Power (W)  | 0.241        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
 | Dynamic (W)              | 0.169        |
+=======
+| Total On-Chip Power (W)  | 0.245        |
+| Design Power Budget (W)  | Unspecified* |
+| Power Budget Margin (W)  | NA           |
+| Dynamic (W)              | 0.172        |
+>>>>>>> 2b7042019eb1d51fcfd7250bd82c3bb1a356eda1
 | Device Static (W)        | 0.072        |
 | Effective TJA (C/W)      | 5.0          |
 | Max Ambient (C)          | 83.8         |
@@ -53,18 +66,30 @@ Table of Contents
 | On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
 +-------------------------+-----------+----------+-----------+-----------------+
 | Clocks                  |     0.002 |        3 |       --- |             --- |
+<<<<<<< HEAD
 | Slice Logic             |     0.085 |    15913 |       --- |             --- |
 |   LUT as Logic          |     0.080 |    10712 |     20800 |           51.50 |
+=======
+| Slice Logic             |     0.085 |    15918 |       --- |             --- |
+|   LUT as Logic          |     0.080 |    10726 |     20800 |           51.57 |
+>>>>>>> 2b7042019eb1d51fcfd7250bd82c3bb1a356eda1
 |   F7/F8 Muxes           |     0.003 |     3151 |     32600 |            9.67 |
 |   CARRY4                |     0.002 |      490 |      8150 |            6.01 |
 |   Register              |    <0.001 |      432 |     41600 |            1.04 |
 |   BUFG                  |    <0.001 |        2 |        32 |            6.25 |
 |   Others                |     0.000 |       24 |       --- |             --- |
 |   LUT as Shift Register |     0.000 |        4 |      9600 |            0.04 |
+<<<<<<< HEAD
 | Signals                 |     0.072 |     8641 |       --- |             --- |
 | I/O                     |     0.010 |       48 |       106 |           45.28 |
 | Static Power            |     0.072 |          |           |                 |
 | Total                   |     0.241 |          |           |                 |
+=======
+| Signals                 |     0.073 |     8649 |       --- |             --- |
+| I/O                     |     0.012 |       50 |       106 |           47.17 |
+| Static Power            |     0.072 |          |           |                 |
+| Total                   |     0.245 |          |           |                 |
+>>>>>>> 2b7042019eb1d51fcfd7250bd82c3bb1a356eda1
 +-------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -74,7 +99,11 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
+<<<<<<< HEAD
 | Vccint    |       1.000 |     0.169 |       0.159 |      0.010 |
+=======
+| Vccint    |       1.000 |     0.170 |       0.160 |      0.010 |
+>>>>>>> 2b7042019eb1d51fcfd7250bd82c3bb1a356eda1
 | Vccaux    |       1.800 |     0.013 |       0.000 |      0.013 |
 | Vcco33    |       3.300 |     0.004 |       0.003 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -143,12 +172,21 @@ Table of Contents
 +------------------+-----------+
 | Name             | Power (W) |
 +------------------+-----------+
+<<<<<<< HEAD
 | Top_Student      |     0.169 |
 |   Oled_Display   |     0.040 |
 |   audio          |    <0.001 |
 |   flowwwww       |     0.001 |
 |   ledoutput      |     0.002 |
 |   mapping        |     0.105 |
+=======
+| Top_Student      |     0.172 |
+|   Oled_Display   |     0.040 |
+|   audio          |    <0.001 |
+|   flowwwww       |     0.001 |
+|   ledoutput      |     0.001 |
+|   mapping        |     0.107 |
+>>>>>>> 2b7042019eb1d51fcfd7250bd82c3bb1a356eda1
 |   nolabel_line38 |    <0.001 |
 |   nolabel_line40 |    <0.001 |
 |   score          |    <0.001 |
