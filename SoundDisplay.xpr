@@ -3,7 +3,6 @@
 <!--                                                         -->
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
-
 <Project Version="7" Minor="38" Path="/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
