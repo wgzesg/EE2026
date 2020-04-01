@@ -3,11 +3,8 @@
 <!--                                                         -->
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
-<<<<<<< HEAD
-<Project Version="7" Minor="38" Path="C:/Users/26012/Desktop/EE2026-master/SoundDisplay.xpr">
-=======
+
 <Project Version="7" Minor="38" Path="/home/wgzesg/Desktop/finalProject/EE2026/SoundDisplay.xpr">
->>>>>>> 2df6aee9930837762d1bca2ec291f2320556f75e
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="0917254c695c4cb5998f17b74e73445e"/>
@@ -239,14 +236,6 @@
     <Simulator Name="Questa">
       <Option Name="Description" Val="Questa Advanced Simulator"/>
     </Simulator>
-<<<<<<< HEAD
-    <Simulator Name="Riviera">
-      <Option Name="Description" Val="Riviera-PRO Simulator"/>
-    </Simulator>
-    <Simulator Name="ActiveHDL">
-      <Option Name="Description" Val="Active-HDL Simulator"/>
-    </Simulator>
-=======
     <Simulator Name="IES">
       <Option Name="Description" Val="Incisive Enterprise Simulator (IES)"/>
     </Simulator>
@@ -259,7 +248,6 @@
     <Simulator Name="Riviera">
       <Option Name="Description" Val="Riviera-PRO Simulator"/>
     </Simulator>
->>>>>>> 2df6aee9930837762d1bca2ec291f2320556f75e
   </Simulators>
   <Runs Version="1" Minor="10">
     <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
